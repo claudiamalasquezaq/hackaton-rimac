@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    /* Fuente para texto general */
+    font-family: Roboto, sans-serif;
+    background-color: #FEFEFE;
+    color: #494F66;
+}
+
+
+/* fuenta para titulo */
+
+.title {
+    font-family: Lato, serif;
+}
+
+.red {
+    background-color: #E5313E;
+}
+
+.gray {
+    background-color: #494F66;
+}
