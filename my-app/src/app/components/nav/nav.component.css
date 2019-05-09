@@ -10,6 +10,7 @@ nav {
     z-index: 4;
     position: fixed;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: "Gothic A1", sans-serif;
     color: white;
 }
 
