@@ -1,40 +1,25 @@
-.mrg {
-    margin-top: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-h4 {
-    text-align: left;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 15px;
-}
-
-div .card {
-    width: 18rem;
+.size {
+    width: 50px;
+    height: 50px;
 }
 
 #container {
     padding-top: 40px;
     padding-bottom: 60px;
     margin-bottom: 30px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
-
-/* .float-l {
-    float: left;
+.contenedor-modal {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    text-align: center;
 }
-
-.float-r {
-    float: right;
-} */
 
 h1 {
     text-align: center;
-    padding: 20px;
+    padding-bottom: 50px;
 }
 
 .button1 {
@@ -46,7 +31,6 @@ h1 {
     letter-spacing: 1px;
     border-radius: 8px;
     margin-right: 20px;
-    width: 100%
 }
 
 .button1:hover {
