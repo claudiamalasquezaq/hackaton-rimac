@@ -1,0 +1,20 @@
+.ligth-gray {
+    color: #a9b1d1;
+}
+
+.last-section {
+    padding: 10px 0 42px 0;
+    font-size: 12px;
+}
+
+.mr-rigth {
+    margin-right: 32px;
+}
+
+.mr-left {
+    margin-left: 20px;
+}
+
+hr {
+    margin: 0 !important;
+}
