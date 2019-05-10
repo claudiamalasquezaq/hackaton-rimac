@@ -10,7 +10,6 @@ import { TestimoniesComponent } from './components/testimonies/testimonies.compo
 import { FooterComponent } from './components/footer/footer.component';
 import { PlansComponent } from './components/plans/plans.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,8 +18,7 @@ import { PlansComponent } from './components/plans/plans.component';
     HomeComponent,
     TestimoniesComponent,
     FooterComponent,
-    PlansComponent,
-   
+    PlansComponent
   ],
   imports: [
     BrowserModule,

@@ -27,5 +27,5 @@ body {
 }
 
 .gray-font {
-    color: #494F66;
+    color: #494F66 !important;
 }
