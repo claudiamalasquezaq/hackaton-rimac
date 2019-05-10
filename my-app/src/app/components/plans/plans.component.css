@@ -1,75 +1,140 @@
-.mrg {
-    margin-top: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-h4 {
-    text-align: left;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 15px;
-}
-
-div .card {
-    width: 18rem;
-}
-
-#container {
-    padding-top: 40px;
-    padding-bottom: 60px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-}
-
-
-/* .float-l {
+    .mrg {
+        margin-top: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    h4 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        padding-top: 10px;
+        padding-bottom: 3px;
+        color: #ef3340;
+    }
+    
+    h6 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    div .card {
+        width: 18rem;
+    }
+    
+    #container {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    /* .float-l {
     float: left;
 }
 
 .float-r {
     float: right;
 } */
-
-h1 {
-    text-align: center;
-    padding: 20px;
-}
-
-.button1 {
-    color: #fff;
-    background-color: #ef3340;
-    border-color: #ef3340;
-    padding: 18px 32px;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
-    border-radius: 8px;
-    margin-right: 20px;
-    width: 100%
-}
-
-.button1:hover,
-.btn-modal:hover {
-    background-color: #f1444f;
-    border-color: #f1444f;
-}
-
-.img-star {
-    width: 80px;
-    height: 80px;
-}
-
-.btn-modal {
-    background-color: #f1444f;
-    width: 250px;
-}
-
-.logo-home {
-    width: 50px;
-    height: 50px;
-}
-
-.img-trab {
-    width: 300px;
-}
+    
+    h1 {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .button1 {
+        color: #fff;
+        background-color: #ef3340;
+        border-color: #ef3340;
+        padding: 10px 32px 18px 32px;
+        font-family: "Lato", sans-serif;
+        letter-spacing: 1px;
+        border-radius: 8px;
+        margin-right: 20px;
+        width: 100%
+    }
+    
+    .button1:hover,
+    .btn-modal:hover {
+        background-color: #f1444f;
+        border-color: #f1444f;
+    }
+    
+    .img-star {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .btn-modal {
+        background-color: #f1444f;
+        width: 250px;
+    }
+    
+    .logo-home {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .img-trab {
+        width: 300px;
+    }
+    
+    .center-text {
+        text-align: center;
+    }
+    
+    .margin-b {
+        margin-bottom: 0;
+    }
+    
+    .margin-sides {
+        margin: 0 5px 0 5px;
+    }
+    
+    .margin-botton {
+        margin-bottom: 10px;
+    }
+    
+    .margin-botton-div {
+        margin-bottom: 40px;
+    }
+    /* Estilos de el grid card flid de cada plan  */
+    
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+        width: 18rem;
+    }
+    
+    .flip-card-inner {
+        position: relative;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+    
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+        background-color: #bbb;
+        color: black;
+        z-index: 2;
+    }
+    
+    .flip-card-back {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+        z-index: 1;
+        width: 18rem;
+    }
