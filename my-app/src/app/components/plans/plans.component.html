@@ -54,8 +54,43 @@
                         <p>Estás a un paso de tener tu seguro</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger btn-modal">Quiero que me llamen</button>
-                        <button type="button" class="btn btn-danger btn-modal">Quiero agendar con un asesor</button>
+                        <button type="button" class="btn btn-danger btn-modal" data-toggle="modal" data-target="#contactModal">Llámenme ahora</button>
+                        <button type="button" class="btn btn-danger btn-modal">Llámenme luego</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2: Datos + contacto por whatsapp -->
+        <div class="modal fade modal-space" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="assets/img/logo-home.jpg" class="logo-home" alt="">
+                        <h1> ¡Buena idea!</h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <img src="../../../assets/img/producto_d_coberturas@2x.png" alt="trabajadores-rimac" class="img-trab">
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Ingresa tu nombre y apellido:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Coloca tu número de celular:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Para mas información:</label>
+                                <div class="row modal-footer">
+                                    <div class="col-sm-12 text-center">
+                                        <button type="button" id="message-text" class="btn btn-danger btn-lg " data-dismiss="modal">Te llamaremos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
