@@ -10,6 +10,9 @@ export class PlansComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
   }
 
 }
